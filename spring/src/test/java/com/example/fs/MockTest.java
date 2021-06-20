@@ -28,8 +28,8 @@ public class MockTest {
         LocalDate now = LocalDate.now();
         assertNull(LocalDate.of(2020, 4, 10)); //mockにするとnullにになるらしい
 
-        assertEquals(2020, of.getYear());
-        assertEquals(4, of.getMonthValue());
-        assertEquals(10, of.getDayOfMonth());
+        assertEquals(2020, now.getYear());
+        assertEquals(4, now.getMonthValue());
+        assertEquals(10, now.getDayOfMonth());
     }
 }
